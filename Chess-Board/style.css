@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.board {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 3px solid black;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
